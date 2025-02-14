@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f; // Set player's movement speed.
     public float rotationSpeed = 120.0f; // Set player's rotation speed.
+    public int ballCount = 5; //Starting with 5 ballls.
 
     private Rigidbody rb; // Reference to player's Rigidbody.
 
@@ -14,6 +15,12 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>(); // Access player's Rigidbody.
     }
 
+    // Add to the ball count.
+    public void AddBallCount(int amount)
+    {
+        ballCount += amount;
+        Debug.Log("Ball count increased! Total balls: " + ballCount);
+    }
     // Update is called once per frame
     void Update()
     {
