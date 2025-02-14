@@ -40,20 +40,10 @@ public class ThrowSphere : MonoBehaviour
 
         // 使用 Raycast 计算鼠标指向的方向
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
         Vector3 targetPoint;
 
-        if (Physics.Raycast(ray, out hit)) 
-        {
-            // 如果射线碰到了物体，目标点就是碰撞点
-            targetPoint = hit.point;
-        }
-        else
-        {
-            // 如果没有碰撞，默认目标点是远处的方向（比如 50 米外）
-            targetPoint = ray.GetPoint(50);
-        }
-
+        targetPoint = ray.GetPoint(50);
+        // Debug.Log("hit point =  " + hit.point);
         // 计算抛出方向（目标点 - 球体当前位置）
         Vector3 throwDirection = (targetPoint - spawnPosition).normalized;
 
