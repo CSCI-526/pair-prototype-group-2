@@ -9,7 +9,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f; // Set player's movement speed.
-    public float rotationSpeed = 120.0f; // Set player's rotation speed.
+    public float strafeSpeed = 4.0f; // Set player's rotation speed.
     public int ballCount = 5; //Starting with 5 ballls.
     public TMP_Text ballCountText; // Reference to the Text UI for curr
     
@@ -66,16 +66,26 @@ public class PlayerController : MonoBehaviour
     // Handle physics-based movement and rotation.
     private void FixedUpdate()
     {
-        // Player always move forward
-        // float moveVertical = Input.GetAxis("Vertical");
-        float moveVertical = 1.0f;
-        Vector3 movement = transform.forward * moveVertical * speed * Time.fixedDeltaTime;
-        rb.MovePosition(rb.position + movement);
+        //// Player always move forward
+        //// float moveVertical = Input.GetAxis("Vertical");
+        //float moveVertical = 1.0f;
+        //Vector3 movement = transform.forward * moveVertical * speed * Time.fixedDeltaTime;
+        //rb.MovePosition(rb.position + movement);
 
-        // Rotate player based on horizontal input.
-        float turn = Input.GetAxis("Horizontal") * rotationSpeed * Time.fixedDeltaTime;
-        Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
-        rb.MoveRotation(rb.rotation * turnRotation);
+        //// Rotate player based on horizontal input.
+        //float turn = Input.GetAxis("Horizontal") * rotationSpeed * Time.fixedDeltaTime;
+        //Quaternion turnRotation = Quaternion.Euler(0f, turn, 0f);
+        //rb.MoveRotation(rb.rotation * turnRotation);
+
+        // Player always moves forward
+        Vector3 forwardMovement = transform.forward * speed * Time.fixedDeltaTime;
+
+        // Left and Right movement (Strafing)
+        float moveHorizontal = Input.GetAxis("Horizontal"); // A = -1, D = 1
+        Vector3 strafeMovement = transform.right * moveHorizontal * strafeSpeed * Time.fixedDeltaTime;
+
+        // Apply both movements
+        rb.MovePosition(rb.position + forwardMovement + strafeMovement);
 
     }
 
@@ -104,11 +114,7 @@ public class PlayerController : MonoBehaviour
     }
     private IEnumerator ShowGameOverCoroutine() {
         yield return new WaitForSeconds(1f);
-
-        gameOverText.gameObject.SetActive(true);
-        gameOverText.alignment = TextAlignmentOptions.Center; // make the text apper in the center of the camera
-        Time.timeScale = 0f;
-        Debug.Log("Player is below -1, Game Over!");
+        ShowGameOver();
     }
 
     public void RestartGame()

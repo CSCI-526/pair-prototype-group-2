@@ -2331,7 +2331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 8182214826264842924, guid: 05e1c9e8416fa4d5f8641d0197577d0f, type: 3}
-  throwForce: 20
+  throwForce: 60
   playerController: {fileID: 1427345380}
 --- !u!4 &703883223
 Transform:
@@ -3383,7 +3383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Left Clike to Throw Balls
+  m_text: Left Click to Throw Balls
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5404,7 +5404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rotationSpeed: 120
+  strafeSpeed: 4
   ballCount: 5
   ballCountText: {fileID: 981125988}
   gameOverText: {fileID: 324082337}
