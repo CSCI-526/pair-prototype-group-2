@@ -106,11 +106,11 @@ public class PlayerController : MonoBehaviour
         gameOverText.gameObject.SetActive(true);
         gameOverText.alignment = TextAlignmentOptions.Center; // make the text apper in the center of the camera
         Time.timeScale = 0f;
-        Debug.Log("Player is below -1, Game Over!");
+        Debug.Log("Game Over!");
     }
     private void ShowGameOverWithDelay()
     {
-        StartCoroutine(ShowGameOverCoroutine()); // 启动 Coroutine
+        StartCoroutine(ShowGameOverCoroutine());
     }
     private IEnumerator ShowGameOverCoroutine() {
         yield return new WaitForSeconds(1f);

@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class ThrowSphere : MonoBehaviour
 {
-    public GameObject spherePrefab; // 预制体（球体）
-    public float throwForce = 10f; // 抛出力度
+    public GameObject spherePrefab; 
+    public float throwForce = 10f; 
     public PlayerController playerController;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // 检测鼠标左键点击
+        if (Input.GetMouseButtonDown(0)) 
         {
             Throw();
         }
@@ -21,7 +21,7 @@ public class ThrowSphere : MonoBehaviour
             Debug.LogError("PlayerController reference is missing!");
             return;
         }
-        Debug.Log("create sphere..."); // 调试信息
+        Debug.Log("create sphere...");
 
         if (playerController.ballCount > 0)
         {
@@ -48,14 +48,6 @@ public class ThrowSphere : MonoBehaviour
                 return;
             }
 
-            // // 设置球体的 Sorting Layer 和 Order in Layer 确保它在 UI 元素之后
-            // Renderer sphereRenderer = sphere.GetComponent<Renderer>();
-            // if (sphereRenderer != null)
-            // {
-            //     sphereRenderer.sortingLayerName = "Default"; // 设置为默认渲染层
-            //     sphereRenderer.sortingOrder = 0; // 确保排序顺序小于 UI 层
-            // }
-
         
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 targetPoint;
@@ -66,7 +58,7 @@ public class ThrowSphere : MonoBehaviour
 
             rb.AddForce(throwDirection * throwForce, ForceMode.Impulse);
 
-            Debug.Log("球体朝 " + targetPoint + " 抛出！");
+            //Debug.Log("球体朝 " + targetPoint + " 抛出！");
             playerController.AddBallCount(-1);
         }
         else
