@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 144171538}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -283,13 +283,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (5)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -1347,13 +1383,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -1594,13 +1666,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (11)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -1713,13 +1821,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (8)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -1936,7 +2080,7 @@ GameObject:
   - component: {fileID: 555487583}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2048,13 +2192,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (10)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -2151,7 +2331,7 @@ GameObject:
   - component: {fileID: 594403509}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,7 +2810,7 @@ GameObject:
   - component: {fileID: 805310603}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2742,13 +2922,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (7)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -2861,13 +3077,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4200693640583636, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.y
@@ -2969,7 +3221,7 @@ GameObject:
   - component: {fileID: 897807778}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3111,7 +3363,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -3312,7 +3564,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -27.67215, z: 0, w: 0}
+  m_margin: {x: 0, y: -27.67215, z: -30.403687, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3468,13 +3720,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (9)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -3571,7 +3859,7 @@ GameObject:
   - component: {fileID: 1013102625}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3683,13 +3971,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -3779,13 +4103,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -3898,13 +4258,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (6)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -4001,7 +4397,7 @@ GameObject:
   - component: {fileID: 1075199710}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4380,7 +4776,7 @@ GameObject:
   - component: {fileID: 1152641615}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4709,7 +5105,7 @@ GameObject:
   - component: {fileID: 1318837995}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5137,7 +5533,7 @@ GameObject:
   - component: {fileID: 1406379326}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5384,7 +5780,7 @@ GameObject:
   - component: {fileID: 1427345381}
   - component: {fileID: 1427345380}
   - component: {fileID: 1427345385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5762,13 +6158,49 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2132503907}
     m_Modifications:
+    - target: {fileID: 1026127781569540, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047512799706330, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1300302436770308, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341887424107628, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390375122315510, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1553623924331372, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619180932135198, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633792185821696, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_Name
       value: Crystalsv01 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678884195978160, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Crystal
       objectReference: {fileID: 0}
     - target: {fileID: 4888588471481040, guid: cc0fd657b60ef8c499b057056b948f16, type: 3}
       propertyPath: m_LocalScale.x
@@ -6274,7 +6706,7 @@ GameObject:
   - component: {fileID: 1832790330}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6499,7 +6931,7 @@ GameObject:
   - component: {fileID: 1838385705}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6512,13 +6944,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838385699}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.008871062, y: 0.012404095, z: -0.10373065, w: 0.99448854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.0599995, y: -0.40999997, z: 0.3000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2126855175}
-  m_LocalEulerAnglesHint: {x: -0.864, y: 1.519, z: -11.921}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1838385701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6765,7 +7197,7 @@ GameObject:
   - component: {fileID: 1981071977}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7003,7 +7435,7 @@ GameObject:
   - component: {fileID: 2031141998}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -21,11 +21,24 @@ public class Obstacle : MonoBehaviour
             // Destroy the obstacle.
             Destroy(gameObject);
 
-            // Increase the ball count by 3 via PlayerController.
+            if (gameObject.CompareTag("Crystal") && playerController != null)
+            {
+                playerController.AddBallCount(3); // Increase ball count
+            }
+
+            // Destroy both Crystals & Obstacles when hit
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Player") && gameObject.CompareTag("Obstacle"))
+        {
             if (playerController != null)
             {
-                playerController.AddBallCount(3);
+                playerController.ApplyPenalty(); // Call a penalty function in PlayerController
             }
+
+            Destroy(gameObject); // Remove the obstacle after penalty is applied
         }
     }
 }
+

@@ -59,8 +59,8 @@ public class PlayerController : MonoBehaviour
     public void AddBallCount(int amount)
     {
         ballCount += amount;
-        Debug.Log("Ball count increased! Total balls: " + ballCount);
-        UpdateBallCountUI(); // Update the ball count UI 
+        Debug.Log("Ball count updated! Total balls: " + ballCount);
+        UpdateBallCountUI(); // Ensure the UI updates whenever the ball count changes
     }
 
     // Handle physics-based movement and rotation.
@@ -124,4 +124,10 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         Time.timeScale = 1f;
     }
+    public void ApplyPenalty()
+    {
+        ballCount = Mathf.Max(0, ballCount - 5);
+        ballCountText.text = "Total Balls: " + ballCount;// Example: Reduce 2 balls, but not below 0
+    }
+
 }
